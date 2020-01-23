@@ -13,7 +13,7 @@ namespace Lab_3
             {
                 Console.WriteLine("Please enter your name.");
                 string userName = Console.ReadLine();
-                Console.WriteLine("Please enter a number between 1 and 100.");
+                Console.WriteLine($"Hello, {userName}. Please enter a number between 1 and 100.");
                 int userNum = int.Parse(Console.ReadLine());
 
 
